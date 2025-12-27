@@ -31,11 +31,11 @@
       }
     }
 
-    // &:hover {
-    //   cursor: pointer;
-    //   background-color: $bg-cell-hover;
-    //   transform: translateY(-20px);
-    // }
+    &:hover {
+      cursor: pointer;
+      background-color: $bg-cell-hover;
+      transform: translateY(-20px);
+    }
   }
 
   @for $i from 28 through 31 {
