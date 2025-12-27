@@ -19,7 +19,7 @@
     height: #{$cell-size};
     background-color: $bg-cell-color;
     border: 1px solid black;
-    transition: transform 500ms;
+    transition: all 500ms;
 
     @for $day from 1 through 31 {
       &:nth-child(#{$day}) {
@@ -53,7 +53,7 @@ $day-name:
   wed 2,
   thu 3,
   fri 4,
-  sut 5,
+  sat 5,
   sun 6;
 
 @each $name, $row in $day-name {
